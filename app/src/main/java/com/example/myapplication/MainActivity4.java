@@ -19,7 +19,7 @@ public class MainActivity4 extends AppCompatActivity {
 
 
             Button boton2;
-
+            Button boton7;
 
 
 
@@ -37,6 +37,22 @@ public class MainActivity4 extends AppCompatActivity {
                     }
                 });
 
+
+
+
+
+
+        boton7 = findViewById(R.id.back);
+
+
+        boton7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity3.class);
+                startActivity(intent);
+                finish();
+            }
+        });
 
     }
 }
