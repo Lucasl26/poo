@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:text="¿Qué es un objeto?            Un objeto es una instancia de una clase. Es una entidad autocontenida que tiene estado (propiedades) y comportamiento (métodos)         "
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="44dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="363dp"
+        android:layout_height="106dp"
+        android:text="¿Qué es un constructor?  Un constructor es un método especial que se llama automáticamente cuando se crea un objeto. Se utiliza para inicializar el estado del objeto. Los constructores pueden tomar parámetros, que se utilizan para especificar los valores iniciales de las propiedades del objeto."
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="385dp"
+        android:layout_height="312dp"
+        android:text="¿Cuáles son los pilares de la OOP?      Abstracción: La abstracción es el proceso de ocultar los detalles de implementación de un objeto y solo exponer sus características esenciales. Esto permite a los programadores concentrarse en el comportamiento de alto nivel de los objetos sin preocuparse por los detalles de bajo nivel de cómo se implementan. Encapsulamiento: El encapsulamiento es el proceso de agrupar los datos y métodos de un objeto en una sola unidad. Esto ayuda a proteger los datos del objeto de ser accedidos o modificados de forma no intencional. Herencia: La herencia es la capacidad de una clase de heredar las propiedades y métodos de otra clase. Esto permite a los programadores reutilizar código y crear nuevas clases que son versiones especializadas de clases existentes. Polimorfismo: El polimorfismo es la capacidad de un objeto de adoptar muchas formas. Esto permite a los programadores escribir código que puede funcionar con diferentes tipos de objetos sin tener que conocer el tipo específico de objeto en tiempo de compilación."
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="390dp"
+        android:layout_height="53dp"
+        android:text="¿Qué es instanciar una clase?  Instanciar una clase es el proceso de crear un objeto de esa clase. Esto se hace usando la palabra clave new seguida del nombre de la clase"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="600dp" />
+
+    <Button
+        android:id="@+id/siguientepag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Siguiente Pagina"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+</androidx.constraintlayout.widget.ConstraintLayout>
